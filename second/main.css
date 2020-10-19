@@ -1,16 +1,22 @@
-header {
-  text-align: center;
-  background-color: #494e55;
-  margin: 0px;
-}
-header h4 {
-  text-align: center;
-  margin-bottom: 0px;
-}
 html,
 body,
 .wrapper {
   height: 100%;
+  margin: 0;
+}
+header {
+  text-align: center;
+  background-color: #494e55;
+  margin-bottom: 0px;
+  display: block;
+}
+header h1 {
+  margin: 0;
+}
+header h4 {
+  text-align: center;
+  margin: 0;
+  display: block;
 }
 
 .wrapper {
@@ -18,10 +24,10 @@ body,
   color: #ec7f80;
 }
 main {
-  background-color: #89849f;
   margin: 0 auto;
   width: 500px;
   height: 260px;
+  padding-top: 20px;
 }
 input:checked + label {
   text-decoration: line-through;
@@ -32,6 +38,9 @@ button {
   background-color: #494e55;
   margin-top: 20px;
   height: 40px;
+}
+.shopping-list {
+  background-color: #89849f;
 }
 .shopping-list-item {
   height: 40px;
@@ -49,6 +58,60 @@ button {
 .shopping-list-item:active {
   background-color: red;
 }
+.shopping-list-item:nth-child(even) {
+  background-color: #7b7694;
+}
+
+#pickles + label:before {
+  content: "🥒";
+  color: #c7ae98;
+}
+#pickles + label:after {
+  content: "(For the next lesson about css)";
+  font-size: 10px;
+  color: #c7ae98;
+}
+#apples + label:before {
+  content: "🍎";
+}
+#apples + label:after {
+  content: "(For moro CSS manipulations)";
+  font-size: 10px;
+  color: #c7ae98;
+}
+
+#oranges + label:before {
+  content: "🍊";
+}
+#oranges + label:after {
+  content: "(because they are awesome)";
+  font-size: 10px;
+  color: #c7ae98;
+}
+#plates + label:before {
+  content: "🍽️";
+}
+#plates + label:after {
+  content: "(hmm... they alweys disappear)";
+  font-size: 10px;
+  color: #c7ae98;
+}
+#bentos + label:before {
+  content: "🍤";
+}
+#bentos + label:after {
+  font-size: 10px;
+  color: #c7ae98;
+}
+#bottleofSake + label:before {
+  content: "🍶";
+}
+#bottleofSake + label:after {
+  content: "(For my friends)";
+  font-size: 10px;
+  color: #c7ae98;
+}
+
 input {
   position: absolute;
   bottom: 10px;
@@ -62,6 +125,7 @@ label {
 small {
   color: #c9b7b3;
 }
+
 /* 
 В решении обязательно должны быть использованы селекторы:
 : active
