@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.intro {
+  background-color: linear-gradient(45deg, white 50%, red 50%);
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
