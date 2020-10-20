@@ -6,11 +6,28 @@ body {
   background-color: black;
   color: white;
 }
-.intro {
-  background-color: linear-gradient(45deg, white 50%, red 50%);
-}
 .wrapper {
+  height: 700px;
+  background: linear-gradient(
+    90deg,
+    white 10%,
+    #ffe5e5 10%,
+    white 10%,
+    #ffe5e5 10%,
+    white 10%,
+    #ffe5e5 10%,
+    white 10%,
+    #ffe5e5 10%,
+    white 10%,
+    #ffe5e5 10%,
+    white 10%,
+    #ffe5e5 10%,
+    white 10%,
+    #ffe5e5 10%,
+    white 10%,
+    #ffe5e5 10%
+  );
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
