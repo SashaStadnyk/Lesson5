@@ -22,12 +22,10 @@ body {
 svg {
   margin: 100px;
 }
-.svg-links:hover path {
-  fill: rebeccapurple;
-  transition: 2s;
+.svg-links:hover ellipse {
+  fill: transparent;
+  transition: 1s;
 }
-.link::after {
-  content: "Etiam sagittis velit vitae varius pellentesque. Suspendise posuer condimentum velit,id vehicula nisi";
-  margin: 0 auto;
-  color: #9d9d9d;
+.svg-links:hover path {
+  fill: #2a69a6;
 }
