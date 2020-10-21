@@ -22,7 +22,7 @@ body {
 svg {
   margin: 100px;
 }
-.intro:hover path {
+.svg-links:hover path {
   fill: rebeccapurple;
   transition: 2s;
 }
