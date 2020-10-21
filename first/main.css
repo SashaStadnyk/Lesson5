@@ -3,31 +3,31 @@
   padding: 0;
 }
 body {
-  background-color: black;
-  color: white;
+  background-color: lightslategray;
 }
 .wrapper {
-  height: 700px;
-  background: linear-gradient(
+  height: 300px;
+  background: repeating-linear-gradient(
     90deg,
-    white 10%,
-    #ffe5e5 10%,
-    white 10%,
-    #ffe5e5 10%,
-    white 10%,
-    #ffe5e5 10%,
-    white 10%,
-    #ffe5e5 10%,
-    white 10%,
-    #ffe5e5 10%,
-    white 10%,
-    #ffe5e5 10%,
-    white 10%,
-    #ffe5e5 10%,
-    white 10%,
+    white,
+    white 5%,
+    #ffe5e5 5%,
     #ffe5e5 10%
   );
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 150px;
+}
+svg {
+  margin: 100px;
+}
+.intro:hover path {
+  fill: rebeccapurple;
+  transition: 2s;
+}
+.link::after {
+  content: "Etiam sagittis velit vitae varius pellentesque. Suspendise posuer condimentum velit,id vehicula nisi";
+  margin: 0 auto;
+  color: #9d9d9d;
 }
